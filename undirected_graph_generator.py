@@ -273,24 +273,24 @@ def main():
                     # Prints out the undirected graphs vertice and edge list!
                     print("V", len(vertices))
 
-                    if len(f_edge) == 0:
+                    if len(final_edge_list) == 0:
                         print("E {}")
                         
-                    elif len(f_edge) == 1:
-                        x = vertices.index(f_edge[0][0])
-                        y = vertices.index(f_edge[0][1])
+                    elif len(final_edge_list) == 1:
+                        x = vertices.index(final_edge_list[0][0])
+                        y = vertices.index(final_edge_list[0][1])
                         print("E {<",x,",",y,">}", sep = "")
                         
                         
                     else:
                         print("E {", end = '')
-                        for j in range(0, len(f_edge)-1):
-                            x = vertices.index(f_edge[j][0])
-                            y = vertices.index(f_edge[j][1])
+                        for j in range(0, len(final_edge_list)-1):
+                            x = vertices.index(final_edge_list[j][0])
+                            y = vertices.index(final_edge_list[j][1])
                             print("<",x,",",y,">,", sep = "", end = '')
                         j += 1
-                        x = vertices.index(f_edge[j][0])
-                        y = vertices.index(f_edge[j][1])
+                        x = vertices.index(final_edge_list[j][0])
+                        y = vertices.index(final_edge_list[j][1])
                         print("<",x,",",y,">}\n", sep = "", end = '')
 
                     

@@ -10,7 +10,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR}/run)
 # create the main executable - add additional .cpp files if needed
 add_executable(random_street random_street_generator.cpp )
 add_executable(shortest shortest_path_deriver.cpp )
-add_executable(IPC IPC_driver.cpp )
+add_executable(start driver.cpp )
 
 install(PROGRAMS undirected_graph_generator.py DESTINATION bin)
-install(TARGETS random_street shortest IPC RUNTIME DESTINATION bin)
+install(TARGETS random_street shortest start RUNTIME DESTINATION bin)
