@@ -9,5 +9,5 @@ $ cd Interprocess-Communication-Driver && mkdir build && cd build && cmake ../ &
 To run the project:
 ```
 $ cd Interprocess-Communication-Driver/build/run/bin/
-./IPC
+./start
 ```
