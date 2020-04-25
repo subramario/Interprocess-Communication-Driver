@@ -36,7 +36,7 @@ This program accepts command-line arguments which affects the types of graphs ge
 
 **-c # :** # is an integer greater than or equal to 1. The process will generate (x,y) coordinates such that every x and y value is in the range [-#,#]. Default: # = 20.
 
-After the creation of a randomized undirected graph, you will have a randomly generated amount of time to use the shortest path functionality for that graph before a new graph is generated, using:
+After the creation of a randomized undirected graph, you will have the aforementioned randomly generated amount of time to use the shortest path functionality for that graph **_before_** a new graph is generated:
 ```
 s (first node) (second node)
 ```
