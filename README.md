@@ -1,7 +1,7 @@
 # Interprocess Communication Driver
 
 ## Purpose
-Developed an IPC driver to explore Linux multi-processing for the creation of an undirected graph and shortest path applications.
+Developed an IPC driver to explore Linux multi-processing for the creation of randomized undirected graphs and application of the BFS shortest path.
 
 ## Definitions
 **Undirected Graph:** a set of objects (called vertices or nodes) that are connected together, where all the edges are bidirectional.
