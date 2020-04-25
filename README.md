@@ -13,6 +13,10 @@ Developed an IPC driver to explore Linux multi-processing for the creation of ra
 **Shortest Path:** the shortest possible path which can be traversed to reach one node from another.
 
 ## Project Setup
+You must first install CMake to initiate the build sequence:
+```
+sudo apt install cmake
+```
 To initialize the build sequence:
 ```
 $ cd Interprocess_Communication_Driver && mkdir build && cd build && cmake ../ && make install 
