@@ -10,6 +10,8 @@ Developed an IPC driver to explore Linux multi-processing for the creation of an
 
 **Edge:** a bidirectional line which connects an unordered pair of vertices together.
 
+**Shortest Path:** the shortest possible path which can be traversed to reach one node from another.
+
 ## Project Setup
 To initialize the build sequence:
 ```
@@ -42,6 +44,7 @@ s (first node) (second node)
 ```
 
 ## Example
+
 **Input:**
 ```
 ./start -s 5 -n 4 -l 5 -c 20
